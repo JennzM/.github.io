@@ -132,7 +132,7 @@ Data Cleaning and Wrangling:
 Google Sheets was primarily used for most of the data cleaning and wrangling. The following steps were taken to accomplish this:
 1)	Uploaded files into Google Sheets.
 2)	Reformatted date/times to proper formatting conventions of YYYY-MM-DD.
-3)	Applied conditional formatting tool to all three tables to discover any columns with no information. On the table named weightLogInfo_merged, several cells in the column titled “fat” were missing any value. Since this variable was not necessary to conduct the analysis, this column was removed. 
+3)	Applied conditional formatting tool to all three tables to discover any columns with no information. On the table named WeightLogInfo_merged, several cells in the column titled “fat” were missing any value. Since this variable was not necessary to conduct the analysis, this column was removed. 
 4)	Removed column named “WeightKg” from the table named “WeightLogInfo” as it was not necessary to have weight measured in both kilograms and pounds. 
 5)	Removed column named “LogId” from table named “WeightLogInfo” as it was not relevant to the analysis. 
 6)	Removed column named “TotalSleepRecords” from table named “SleepDay” as it did not create any significant impact upon this data analysis project. 
@@ -152,8 +152,7 @@ Google Sheets was primarily used for most of the data cleaning and wrangling. Th
 15)	Used COUNTUNIQUE function in Google Sheets to determine number of distinct users that tracked their total steps with their smart device. =COUNTUNIQUE(A2:A941). There were 33 users that tracked their total steps with their smart device. 
 16)	Used AVERAGE function in Google Sheets to determine average total daily steps. 
 
-![image](https://user-images.githubusercontent.com/98363340/150883201-da08f082-b8fc-4bec-ab6a-2d32d57d8699.png)
-
+![image](https://user-images.githubusercontent.com/98363340/151715034-e15b4bd2-7583-4bee-b3df-8d5821edc186.png)
 
 
 17)	Several users missed days of tracking steps and some missed days of tracking calories. In those cases, their average daily steps and daily average calories was documented in place of the missing values. 
